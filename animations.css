@@ -211,13 +211,6 @@
   100% { transform: translateY(0px); }
 }
 
-
-/* Removing the typing effect for hero text as requested */
-
-
-/* Removing the theme toggle animation as requested */
-
-
 .contact-form .btn:hover {
   animation: shake 0.5s ease-in-out;
 }
