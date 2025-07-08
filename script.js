@@ -2,7 +2,11 @@
 
 document.addEventListener('DOMContentLoaded', function(){
 
-
+  // Set target width for skill progress bars
+  document.querySelectorAll('.skill-progress').forEach(progressBar => {
+    const inlineWidth = progressBar.style.width;
+    progressBar.style.setProperty('--target-width', inlineWidth);
+  });
 
   document.getElementById('location').textContent = window.location.href;
   
